@@ -13,5 +13,5 @@ def calculate_stats(folder_path):
 
 if __name__ == "__main__":
     folder_path = sys.argv[1]
-    total = count_files(folder_path)
+    total = calculate_stats(folder_path)
     print("Total files:", total)
